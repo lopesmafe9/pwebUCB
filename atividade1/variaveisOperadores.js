@@ -6,10 +6,10 @@ subtracao = a - b;
 multiplicacao = a * b;
 divisao = a / b;
 
-let soma = ('A soma de a + b é: ' + soma);
-let subtracao = ('A subtração de a - b é: ' + subtracao);
-let multiplicacao = ('A multiplicação de a * b é: ' + multiplicacao);
-let divisao = ('A divisão de a / b é: ' + divisao);
+let soma = ('a soma de a + b e = ' + soma);
+let subtracao = ('a subtração de a - b e = ' + subtracao);
+let multiplicacao = ('a multiplicação de a * b e = ' + multiplicacao);
+let divisao = ('a divisao de a / b e =' + divisao);
 
 console.log(soma);
 console.log(subtracao); 
