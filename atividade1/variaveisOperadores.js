@@ -1,17 +1,17 @@
 let a = 5;
 let b = 10;
 
-soma = a + b;
-subtracao = a - b;
-multiplicacao = a * b;
-divisao = a / b;
+let soma = a + b;
+let subtracao = a - b;
+let multiplicacao = a * b;
+let divisao = a / b;
 
-let soma = ('a soma de a + b e = ' + soma);
-let subtracao = ('a subtração de a - b e = ' + subtracao);
-let multiplicacao = ('a multiplicação de a * b e = ' + multiplicacao);
-let divisao = ('a divisao de a / b e =' + divisao);
+let somaString = (`a soma de ${a} + ${b} é = ${soma}`);
+let subtracaoString = (`a subtração de ${a} - ${b} é = ${subtracao}`);
+let multiplicacaoString = (`a multiplicação de ${a} * ${b} é = ${multiplicacao}`);
+let divisaoString = (`a divisão de ${a} * ${b} é = ${divisao}`);
 
-console.log(soma);
-console.log(subtracao); 
-console.log(multiplicacao);
-console.log(divisao);
+console.log(somaString);
+console.log(subtracaoString); 
+console.log(multiplicacaoString);
+console.log(divisaoString);
